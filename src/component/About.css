@@ -1,0 +1,119 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.herosection{
+    background-image: url(../assets/img/bg-hero.jpg);
+padding: 200px;
+display: flex;
+flex-direction: column;
+align-items: center;
+font-family:sans-serif;
+}
+.herosection h1{
+    color: white;
+    font-size: 100px;
+    font-family:sans-serif;
+
+}
+.hero{
+    display: flex;
+    flex-direction: row;
+    color: rgb(76, 223, 76);
+    font-weight: bolder;
+    gap: 5px;
+
+}
+.about{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex; 
+    gap: 40px;
+}
+.about img{
+    width: 400px;
+}
+.pp{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.pp p{
+    font-size: 16px;
+}
+.table{
+    margin-top: 20px;
+}
+.table tbody td{
+width: 500px;
+padding-bottom: 10px;
+}
+.about-us button{
+    width: 130px;
+    height: 50px;
+    background:#86b817;
+    border: none;
+    margin-top: 30px;
+}
+
+.trav{
+    padding-bottom: 7px;
+}
+.card-grid{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    position:relative;
+    padding-top: 48px;
+}
+.meet-guide{
+    margin-bottom: 49px;
+}
+.meet-guide h1{
+display: flex;
+justify-content: center;
+font-size: 40px;
+line-height: 48px;
+color: #212223;
+}
+.card img{
+    width: 250px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 13px 0px; */
+    box-shadow: rgba(0, 0, 0, 0.062) 0px 4px 25px 8px;
+    align-items: center;
+}
+.card-icons{
+    display: flex;
+    position:absolute;
+    bottom: 10px;
+    padding-bottom: 87px;
+    gap: 10px;
+    
+
+}
+.two{
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.futa{
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 96px;
+    padding-bottom: 53px;
+    background-color: #14141f;
+    color: white;
+}
